@@ -4,9 +4,9 @@
 /node_modules
 /.pnp
 .pnp.js
-/its-nous-v2/BackendFlaskAPINotes/API_KEY.py
-/its-nous-v2/BackendFlaskAPINotes/static
-/its-nous-v2/BackendFlaskAPIFinance/API_KEY.py
+/ItsNous-Endgrate/BackendFlaskAPINotes/API_KEY.py
+/ItsNous-Endgrate/BackendFlaskAPINotes/static
+/ItsNous-Endgrate/BackendFlaskAPIFinance/API_KEY.py
 # testing
 /coverage
 
