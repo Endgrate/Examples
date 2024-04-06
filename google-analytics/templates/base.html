@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} {% endblock %} - Endgrate Dashboard</title>
+    <style>
+        /* Custom Font */
+        @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        body {
+            background: #f1f4f8;;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .message {
+            padding: 10px;
+            margin: 5px;
+            background-color: #f1f4f8;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            height: 60px;
+            border-radius: 8px;
+        }
+
+        nav a {
+            color: #000000;
+            font-size: 1.5em;
+            margin-left: 50px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #c0c0c0;
+        }
+
+        #navbar {
+            background-color: #7d72f1;
+            border-radius: 15px;
+        }
+
+        .content {
+            margin: 20px;
+            padding: 20px;
+            background-color: #FFFFFF;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        #option {
+            font-size:12px;
+        }
+    </style>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6CNJ5360HZ"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-6CNJ5360HZ');
+    </script>
+
+</head>
+<body id="body1">
+  <div id="navbar">
+    <nav>
+        <a href="{{ url_for('index') }}"><b>Home</b></a>
+        <a href="{{ url_for('google_analytics') }}">Google Analytics</a>
+    </nav>
+ 	</div>
+    <div class="content">
+        {% block content %} {% endblock %}
+    </div>
+</body>
+</html>
