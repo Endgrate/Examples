@@ -1,0 +1,18 @@
+
+.noteSearchBar {
+  width: 75%;
+  margin: auto;
+  padding-left: 1.5%;
+  --border-radius: 20px;
+  --background: var(--ion-color-light-tint);
+}
+
+@media only screen and (max-width: 900px) { 
+  
+  .noteSearchBar {
+    width: 96%;
+    margin: auto;
+    margin-left: 3%;
+  }
+
+}

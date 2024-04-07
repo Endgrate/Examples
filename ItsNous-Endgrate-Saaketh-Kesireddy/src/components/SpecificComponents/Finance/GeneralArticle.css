@@ -1,0 +1,14 @@
+
+.generalArticle {
+  width: 96%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  background: var(--ion-color-light-tint);
+}
+
+ion-thumbnail {
+  --size: 140px;
+  --border-radius: 14px;
+}

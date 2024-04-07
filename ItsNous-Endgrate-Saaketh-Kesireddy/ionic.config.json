@@ -1,0 +1,7 @@
+{
+  "name": "its-nous-v2",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

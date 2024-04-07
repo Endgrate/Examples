@@ -1,0 +1,38 @@
+
+.generalInfoContainer {
+  width: 73%;
+  height: 210px;
+  background: var(--ion-color-light-shade);
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  overflow: hidden;
+}
+
+.generalInfoContainerImg {
+  width: 100%; 
+}
+
+.generalInfoContainerTextContent {
+  width: 50%;
+}
+
+.generalInfoContainerButton {
+  width: 100%;
+}
+
+@media only screen and (max-width: 900px) { 
+  
+  .generalInfoContainer {
+    width: 92%;
+    min-height: 210px;
+    height: auto;
+  }
+
+  .generalInfoContainerImg {
+    height: 100%;
+  }
+
+}

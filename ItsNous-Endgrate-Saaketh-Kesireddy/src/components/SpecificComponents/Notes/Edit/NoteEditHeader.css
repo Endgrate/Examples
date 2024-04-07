@@ -1,0 +1,13 @@
+
+.noteEditHeaderTitle {
+  border-radius: 20px;
+  width: 75%;
+  max-width: 300px;
+  height: 50px;
+}
+
+.noteEditHeaderButton {
+  height: 50px;
+  border-radius: 20px;
+  background: black;
+}

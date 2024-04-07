@@ -1,0 +1,17 @@
+
+.totalArticleContainer {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 900px) { 
+  
+  .totalArticleContainer {
+    width: 100%;
+  }
+
+}
