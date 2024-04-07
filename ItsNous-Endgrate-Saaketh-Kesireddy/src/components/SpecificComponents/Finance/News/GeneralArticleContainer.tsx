@@ -15,7 +15,7 @@ import {
 
 import {
   ArticleRequestObject
-} from "../../../@types/article";
+} from "../../../../@types/article";
 
 import { 
   useEffect,
@@ -28,7 +28,7 @@ import {
 
 import { 
   Article 
-} from "../../../@types/article";
+} from "../../../../@types/article";
 
 import GeneralArticle from "./GeneralArticle";
 

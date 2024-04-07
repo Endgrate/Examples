@@ -7,7 +7,7 @@ import {
 
 import { 
   Article 
-} from "../../../@types/article";
+} from "../../../../@types/article";
 
 interface TempArticleViewCache {
   articleGeneralCache: Article[];

@@ -12,7 +12,7 @@ import {
 
 import {
   ArticleRequestObject
-} from "../../../@types/article";
+} from "../../../../@types/article";
 
 import { 
   useEffect

@@ -24,7 +24,7 @@ import {
 
 // Pages
 import Notes from './pages/Authenticated/Notes/Notes';
-import Finance from './pages/Authenticated/FinanceNews';
+import Finance from './pages/Authenticated/Finance/FinanceNews';
 import Account from './pages/Authenticated/Account';
 
 // Core CSS required for Ionic components to work properly
@@ -48,6 +48,8 @@ import './theme/variables.css';
 import EditNote from './pages/Authenticated/Notes/EditNote';
 import NotesSuccess from './pages/Authenticated/Notes/NotesSuccess';
 import Help from './pages/Authenticated/Help';
+import FinanceNews from './pages/Authenticated/Finance/FinanceNews';
+import FinanceHome from './pages/Authenticated/Finance/FinanceHome';
 
 import { 
   getAnalytics 
@@ -56,8 +58,11 @@ import {
 import { 
   app
 } from './components/Backend/FirebaseDatabase';
-import { SignedIn, SignedOut } from '@clerk/clerk-react';
-import FinanceNews from './pages/Authenticated/FinanceNews';
+
+import { 
+  SignedIn, 
+  SignedOut 
+} from '@clerk/clerk-react';
 
 setupIonicReact({
   rippleEffect: false,

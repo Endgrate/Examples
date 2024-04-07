@@ -2,7 +2,7 @@ import "../Finance/GeneralArticle.css";
 
 import { 
   ArticleImage 
-} from "../../../@types/article";
+} from "../../../../@types/article";
 
 import { 
   IonItem,
@@ -19,7 +19,7 @@ import {
 
 import { 
   Article 
-} from "../../../@types/article";
+} from "../../../../@types/article";
 
 interface ContainerProps {
   article: Article;
