@@ -1,0 +1,8 @@
+
+.highlightedArticle {
+  width: 75%;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background: var(--ion-color-light-shade);
+}

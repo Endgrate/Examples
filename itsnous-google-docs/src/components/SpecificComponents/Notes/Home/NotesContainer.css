@@ -1,0 +1,17 @@
+
+.notesContainer {
+  display: flex;
+}
+
+.notesContainerGrid {
+  width: 75%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 900px) { 
+  
+  .notesContainerGrid {
+    width: 100%;
+  }
+
+}

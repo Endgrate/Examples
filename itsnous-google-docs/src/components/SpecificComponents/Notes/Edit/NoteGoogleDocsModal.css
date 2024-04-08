@@ -1,0 +1,16 @@
+
+.block {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ion-modal {
+  --height: auto;
+}
+
+.noteGoogleDocsModal {
+  margin-bottom: var(--ion-safe-area-bottom);
+}

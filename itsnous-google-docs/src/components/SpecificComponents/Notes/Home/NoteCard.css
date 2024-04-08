@@ -1,0 +1,7 @@
+
+.noteCard {
+  width: 96%;
+  border-radius: 20px;
+  background: var(--ion-color-light-tint);
+  display: inline-block;
+}

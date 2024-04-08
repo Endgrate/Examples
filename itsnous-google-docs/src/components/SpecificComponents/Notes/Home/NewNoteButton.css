@@ -1,0 +1,7 @@
+ion-fab-button {
+  --background: linear-gradient(45deg, var(--ion-color-light-tint), var(--ion-color-primary));
+  --background-activated: linear-gradient(var(--ion-color-primary-tint), var(--ion-color-primary));
+  --background-hover: white;
+  --border-radius: 15px;
+  --color: var(--ion-text-color);
+}

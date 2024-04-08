@@ -1,0 +1,30 @@
+
+.zeroNotePlaceholder {
+  width: 73%;
+  height: 210px;
+  background: var(--ion-color-light-shade);
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+}
+
+.zeroNotePlaceholderImg {
+  height: 100%;
+}
+
+.zeroNotePlaceholderTextContent {
+  width: 50%;
+}
+
+.zeroNotePlaceholderButton {
+  width: 100%;
+}
+
+@media only screen and (max-width: 900px) { 
+  
+  .zeroNotePlaceholder {
+    width: 92%;
+  }
+
+}

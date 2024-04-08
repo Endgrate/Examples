@@ -1,0 +1,35 @@
+
+.condensed_signin_container {
+  width: 100%;
+  height: 100%;
+  background: url("https://storage.googleapis.com/its-nous-v2/generalBackground.png");
+  background-size: cover;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.condensed_signin {
+  display: flex;
+  width: 350px;
+  background: var(--ion-color-light-shade);
+  border-radius: 15px;
+  margin: auto;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.condensed_signin_left, .condensed_signin_right {
+  width: 50%;
+  flex: left;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.condensed_signin_right {
+  padding: 4%;
+  box-sizing: border-box;
+}

@@ -1,0 +1,13 @@
+
+.highlightedArticleContainer {
+  width: 60%;
+  flex: left;
+}
+
+@media only screen and (max-width: 900px) { 
+  
+  .highlightedArticleContainer {
+    width: 100%;
+  }
+
+}

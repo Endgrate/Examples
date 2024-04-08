@@ -1,0 +1,91 @@
+.financeNewsViewerModal {
+  --height: 100%;
+  --width: 100%;
+}
+
+.financeNewsViewerModalContent {
+  overflow-y: auto;
+  
+}
+
+.financeNewsViewerModalTextContent {
+  width: 50%;
+  margin: auto;
+}
+
+.financeNewsViewerModalImg {
+  min-height: 300px;
+  overflow: hidden;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.financeNewsViewerModalInfo {
+  width: 48%;
+  background: var(--ion-color-light);
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+p {
+  padding: 10px;
+  display: block;
+  background: var(--ion-color-light);
+  border-radius: 20px;
+  overflow-x: auto;
+  width: 100%;
+}
+
+img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  padding: 10px;
+  background: var(--ion-color-light-shade);
+  border-radius: 20px;
+}
+
+th {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: var(--ion-color-light-tint);
+}
+
+li {
+  background: var(--ion-color-light-shade);
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+iframe {
+  width: 100%;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 900px) { 
+  
+  .financeNewsViewerModalTextContent, .financeNewsViewerModalInfo {
+    width: 100%;
+  }
+
+  .financeNewsViewerModalInfo {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+}

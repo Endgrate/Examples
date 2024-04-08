@@ -1,0 +1,23 @@
+
+.noteEditBottomNav {
+  --background: var(--ion-background-color);
+}
+
+
+.noteEditBottomNavShortcuts {
+  --border-radius: 20px;
+  --background: var(--ion-color-light-shade);
+  color: var(--ion-color-light-contrast);
+  margin: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.noteEditBottomNavShortcutsContainer {
+  margin: auto;
+  margin-bottom: var(--ion-safe-area-bottom);
+  background: var(--ion-color);
+  border-top: none;
+}
