@@ -1,0 +1,90 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+body {
+    padding-top: 60px; /* Adjust this value based on the height of your header bar to prevent content from being hidden behind it */
+}
+
+header {
+    background: #7b0de2;
+    color: #ffffff;
+    padding-top: 50px;
+    min-height: 70px;
+    border-bottom: #7b0de2 3px solid;
+}
+
+header a {
+    color: #cc0909;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background: #7b0de2;
+    color: #7b0de2;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+input[type="email"], input[type="text"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background: #0779e4;
+    color: white;
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #7b0de2;
+}
+.button {
+    display: inline-block;
+    background-color: #7b0de2; /* Green background */
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+    background-color: #7b0de2; /* Darker shade of green */
+}
+
+.header-bar h1 {
+    margin: 0; /* Removes default margin */
+    padding: 10px 0; /* Adds some padding around the text */
+    color: white; /* Text color */
+    font-size: 24px; /* Adjust font size as needed */
+    /* Add more styling as desired (font-family, weight, etc.) */
+}
+
+/* Ensure previous styles for html, body, and .header-bar remain */

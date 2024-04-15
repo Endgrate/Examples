@@ -1,0 +1,17 @@
+{% extends 'base.HTML' %}
+
+{% block content %}
+<div class="container">
+    <h2>Send an Email</h2>
+    <form method="post">
+        Recipient Email: <input type="email" name="RecipientEmail" required><br>
+        Subject: <input type="text" name="subject" required><br>
+        Body:<br><textarea name="BodyTxt" required></textarea><br>
+        <input type="submit" value="Send Email" class="button">
+    </form>
+    {% if message %}
+    <p>{{ message }}</p>
+    {% endif %}
+    <a href="{{ url_for('home') }}" class="button">Return Home</a>
+</div>
+{% endblock %}
