@@ -1,0 +1,15 @@
+{% extends 'base.HTML' %}
+
+{% block content %}
+<div class="container">
+    {% if session_id %}
+    <h2>Session Initiated Successfully</h2>
+    <p>Session ID: {{ session_id }}</p>
+    <a href="https://endgrate.com/session?session_id={{ session_id }}" target="_blank" class="button">Configure Session</a>
+    {% else %}
+    <h2>Failed to Initiate Session</h2>
+    <p>{{ error_message }}</p>
+    {% endif %}
+    <a href="{{ url_for('home') }}" class="button">Return Home</a>
+</div>
+{% endblock %}
