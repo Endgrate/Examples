@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <h2>Welcome to the Endgrate Email App</h2>
+    <p>Start by initiating a session or send an email directly.</p>
+    <a href="{{ url_for('initiate') }}" class="button">Initiate Session</a>
+    <a href="{{ url_for('send_email') }}" class="button">Send Email</a>
+</div>
+{% endblock %}
